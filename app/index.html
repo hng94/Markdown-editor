@@ -21,9 +21,13 @@
 
     <section class="content">
       <label for="markdown" hidden>Markdown Content</label>
-      <textarea class="raw-markdown" id="markdown"></textarea>
+      <textarea class="raw-markdown night light-scheme" id="markdown"></textarea>
+      <div id='separator'></div>
       <div class="rendered-html" id="html"></div>
     </section>
 
   </body>
+  <script>
+    require('./renderer')
+  </script>
 </html>
